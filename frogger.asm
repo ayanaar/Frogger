@@ -1,9 +1,6 @@
 #####################################################################
 #
-# CSC258H5S Fall 2021 Assembly Final Project
-# University of Toronto, St. George
-#
-# Student: Ayanaa Rahman, Student Number: 1007048017
+# Frogger Assembly Final Project
 #
  # Bitmap Display Configuration:
  # - Unit width in pixels: 8
@@ -12,26 +9,21 @@
  # - Display height in pixels: 256
  # - Base Address for Display: 0x10008000 ($gp)
  #
-# Which milestone is reached in this submission?
-# (See the assignment handout for descriptions of the milestones)
-# - Milestone 5
 #
-# Which approved additional features have been implemented?
-# (See the assignment handout for the list of additional features)
+# Features that have been implemented:
+# 
 # 1. Make a second level that starts after the
 #	player completes the first level.
 # 2. Add sound effects for movement, collisions, game end and reaching the goal area.
 
 # 3. Display a death/respawn animation each time the player loses a frog.
 
-# 4. After final player death, display game over/retry screen. Restart the game if the ìretryî option is chose
+# 4. After final player death, display game over/retry screen. Restart the game if the ‚Äúretry‚Äù option is chose
 
-#5. Display the number of square_lives remaining
+#5. Display the number of lives remaining
 
 #6. Add a third row in each of the water and road sections.
-#
-# Any additional information that the TA needs to know:
-# - (write here, if any)
+
 #
 #####################################################################
 .data
